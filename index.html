@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Super Pizza</title>
+        <link href="css/reset.css" rel="stylesheet">
+		<link href="css/estilo.css" rel="stylesheet">
+    </head>
+    <style>
+	/*
+        body{
+        background: url(imagens/fundo.jpg);
+        font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        Header{
+            background:rgb(178, 45, 0); /* site:960 dimensão basica - https://960.gs/ */
+            width: 960px;
+            position: relative;
+            margin: 0 auto;
+            padding: 10px 20px;
+            box-sizing: border-box;
+        }
+        
+        .logo{
+            display: inline-block;
+        }
+        
+        .telefone{
+            display: inline-block;
+            position: absolute;
+            color: white;
+            right: 0;
+            font-size: 20px;
+            line-height: 1.3;
+            text-align: center;
+            margin-right: 20px;
+            margin-top: 16px;
+        }
+        
+        nav{
+            width: 960px;
+            margin: 0 auto;
+            background: #d9a300;
+            box-sizing: border-box;
+            padding: 15px 35px;        
+        }
+
+        .menu-navegacao li{
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .menu-navegacao li a{
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        
+        .menu-navegacao li a:hover{
+            text-decoration: underline;
+        }
+        
+        main{
+            box-sizing: border-box;
+            width: 960px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px 25px 30px 25px;
+        }
+        
+        .titulo-principal{
+            font-size: 40px;
+            border-bottom: 2px solid black;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .pizzas-banner li{
+            display: inline-block;
+            text-align: center;        
+        }
+        
+        .pizzas-banner li figcaption{
+            margin-top: 10px;
+        }
+        
+        
+        .pizzas-banner{
+            border-bottom: 2px solid black;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .nossos-sabores, .historia{
+            display: inline-block;
+            box-sizing: border-box;
+            width: 45%;
+            vertical-align: top;        
+        }
+
+        .historia p{
+            line-height: 1.3;
+        }
+
+        .subtitulo-principal{
+            font-size: 35px;
+            margin-bottom: 20px;
+        }
+        
+        .lista-sabores{
+            column-count: 3;        
+        }
+
+        .lista-sabores li{
+            line-height: 1.3;        
+        }
+
+        .imagem-historia{
+            margin-right: 10px;
+            color: red;
+        }
+
+        footer{
+            width: 960px;
+            height: auto;
+            box-sizing: border-box;
+            background: rgb(60, 60, 60);
+            padding: 18px 35px; 
+            margin: 0 auto;
+            color: white;
+            font-size: 12px;
+            
+        } */
+    
+    </style>
+	<body>
+        <header>
+            <h1 class="logo"><img src="imagens/logotipo.fw.png" alt="Pizzaria Super Pizza" title="Super Pizza"></h1>
+            <h2 class="telefone">Disk entrega: <br>(19)1234-5678</h2>
+        </header>
+        <nav>
+            <ul class="menu-navegacao">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quem-somos.html">Quem somos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h3 class="titulo-principal">A melhor pizza da região</h3>
+            <ul class="pizzas-banner">
+                <li>
+                    <figure>
+                        <img src="imagens/calabreza.jpg" alt="Calabreza">
+                        <figcaption> Calabreza</figcaption>
+                    </figure>
+                </li>
+
+                <li>
+                    <figure>
+                        <img src="imagens/portuguesa.jpg" alt="Portuguesa">
+                        <figcaption> Portuguesa</figcaption>
+                    </figure>
+                </li>
+
+                <li>
+                    <figure>
+                        <img src="imagens/siciliana.jpg" alt="Siciliana">
+                        <figcaption> Siciliana</figcaption>
+                    </figure>
+                </li>
+            </ul>
+            <div class="nossos-sabores">
+                <h4 class="subtitulo-principal"> Nossos Sabores </h4>
+                <ul class="lista-sabores">
+                    <li>À moda da casa</li>
+                    <li>Alice</li>
+                    <li>Atum</li>
+                    <li>Baiana</li>
+                    <li>Bauru</li>
+                    <li>Canadense</li>
+                    <li>Catupiri</li>
+                    <li>Calabreza</li>
+                    <li>Escarola</li>
+                    <li>Frango</li>
+                    <li>Margherita</li>
+                    <li>Mexicana</li>
+                    <li>Mussarela</li>
+                    <li>Napolitana</li>git
+                    <li>Palmito</li>
+                    <li>Portuguesa</li>
+                    <li>Provolone</li>
+                    <li>Quatro Queijo</li>
+                    <li>Romana</li>
+                    <li>Siciliana</li>
+                </ul>
+            </div>
+            <div class="historia">
+                    <h4 class="subtitulo-principal">Uma casa com história </h4>
+                <p>
+                    <img src="imagens/historia.jpg" alt="História" align="left" class="imagem-historia">
+                    Muito famosa em toda em toda região por sua excelência na qualidade, 
+					a nossa pzzaria tem mais de 25 anos de história.
+                
+                <a href="sobre.html"> Conheça</a>.</p>                
+            </div>
+        </main>
+        <footer>
+            <p>Aula do SENAC. Declaração dos direitos autorais.</p>
+    </footer>
+	</body>
+</html>
